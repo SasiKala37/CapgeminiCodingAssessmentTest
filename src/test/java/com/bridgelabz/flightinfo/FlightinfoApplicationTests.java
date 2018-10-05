@@ -18,8 +18,5 @@ public class FlightinfoApplicationTests {
 	}
 	
 	private CheapFlightController cheapFlightController;
-	
-	@Mock
-	RestTemplate restTemplate;
 
 }
