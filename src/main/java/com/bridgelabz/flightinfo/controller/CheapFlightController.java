@@ -21,7 +21,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class CheapFlightController {
 
 	@PostMapping("/gettoken")
-	public ResponseEntity<String> getToken(HttpServletRequest request, @RequestParam String grant_type)
+	public ResponseEntity<String> getToken()
 			throws IOException {
 
 		String credentials = "grant_type=client_credentials";
